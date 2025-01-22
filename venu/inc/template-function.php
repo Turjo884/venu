@@ -38,7 +38,7 @@ function venu_main_menu(){
     wp_nav_menu(array(
         'theme_location' => 'main-menu',
         'container' => '',
-        'menu_class' => 'venu-menu',
+        'menu_class' => 'dropdown menu',
         'fallback_cb' => 'Venu_Walker_Nav_Menu::fallback',
         'walker' => new Venu_Walker_Nav_Menu,
       ));
